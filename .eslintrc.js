@@ -15,7 +15,8 @@ module.exports = exports = {
      "indent": [2, ERROR],
       "no-console":OFF,
       "no-var": "error",
-      "no-undef":OFF
+      "no-undef":OFF,
+      "no-sparse-arrays":OFF
    }
 };
 
