@@ -6,15 +6,15 @@ describe('testcase for problem 4 of curry is', () =>{
     expect(result1()).toBe(2);
   });
 
-  test('passing only one argument as a number', () =>{
+  test('passing no arguments', () =>{
     expect(curry()).toBe(0);
   });
 
-  test('passing only one argument as a number', () =>{
+  test('passing three arguments', () =>{
     expect(curry(2)(2)(2)()).toBe(6);
   });
 
-  test('passing only one argument as a number', () =>{
+  test('passing two aruments and checking the type of result', () =>{
     expect(typeof(curry(9)(1)())).toBe('number');
   });
 });
